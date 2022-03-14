@@ -1,0 +1,42 @@
+.mobile_other-menu {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  min-height: 100vh;
+  background-color: #fafafa;
+  z-index: 100;
+  -webkit-box-shadow: 0 12px 10px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 12px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.mobile_advanced_menu {
+  height: auto;
+}
+
+.mobile_black_lead {
+  background-color: rgba(25, 30, 57, 0.3);
+}
+
+.mobile_holder {
+  position: fixed;
+  overflow-x: scroll;
+  top: 0px;
+  left: 0px;
+  width: auto;
+  background-color: #fff;
+  height: 100vh;
+  z-index: 100;
+}
+
+.mobile_holder * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile_holder {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */

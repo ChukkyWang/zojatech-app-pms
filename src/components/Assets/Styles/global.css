@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
+.App {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    display: none;
+  }
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Rubik";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+}
+
+:root {
+  --label-color: rgba(36, 46, 62, 0.5);
+  --purple: #6b51df;
+  --white: #fff;
+  --black: #343957;
+}
+
+body,
+html {
+  width: 100%;
+}
+
+input[type="checkbox"] {
+  accent-color: var(--purple);
+  margin-right: 10px;
+}
+
+.login_support {
+  color: var(--label-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: -10px;
+}
+
+.login_support * {
+  cursor: pointer;
+}
+
+a {
+  color: var(--purple);
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+}
+/*# sourceMappingURL=global.css.map */

@@ -1,0 +1,146 @@
+:root {
+  --input-normal-state: #d1dcde;
+  --purple: #6b51df;
+}
+
+.auth_bg {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../Assets/Images/bg.svg");
+  background-size: cover;
+  padding: 10px;
+}
+
+.general_form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.full_width_button {
+  background-color: var(--purple);
+  color: #fff;
+  font-size: 16px;
+  line-height: 19.36px;
+  padding: 16.5px 12px;
+  font-size: 15px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  position: relative;
+  width: 100%;
+  margin: 20px auto;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.full_width_button:disabled {
+  background-color: var(--disabled-blue);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.form_width_input {
+  border: 1px solid var(--input-normal-state);
+  padding: 16.5px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  outline: none;
+  position: relative;
+  width: 100%;
+}
+
+.form_width_input:focus + label {
+  color: var(--purple);
+}
+
+.form_input_label {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: var(--label-color);
+  font-weight: 500;
+}
+
+.general_form {
+  padding: 20px 60px;
+  width: 100%;
+  max-width: 747px;
+  background-color: #fff;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  border-radius: 5px;
+}
+
+.general_form * {
+  -webkit-transition: 0.09s ease all;
+  transition: 0.09s ease all;
+}
+
+.general_form > div {
+  margin: 24px auto;
+}
+
+.general_form .form_reverse_column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.general_form .support_heading {
+  color: #8692a6;
+  margin: 12px 0px 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .general_form {
+    padding: 20px 30px;
+  }
+}
+
+span.reveal-password * {
+  color: #989898;
+}
+
+.reset-password {
+  font-size: 14px;
+  text-align: right;
+  margin-top: 10px;
+  color: white;
+  font-family: Inter-Medium;
+}
+
+.password-class {
+  position: relative;
+  margin: 30px 0px 0px 0px;
+}
+
+.reveal-password {
+  position: absolute;
+  right: 8px;
+  bottom: 13.5px;
+  cursor: pointer;
+  padding: 1.25px 2px;
+}
+
+.reveal-password * {
+  font-size: 18px;
+  margin-bottom: -5px;
+  padding: 0px;
+}
+
+img,
+h2 {
+  display: block;
+  text-align: center;
+  margin: 15px auto;
+  font-weight: normal;
+}
+/*# sourceMappingURL=FormProps.css.map */
